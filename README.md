@@ -11,7 +11,7 @@
 
 获取项目
 ```
-github.com/msterzhang/go_blog_api
+go get github.com/msterzhang/go_blog_api
 ```
 
 1.安装相关依赖

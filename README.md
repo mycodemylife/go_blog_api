@@ -155,6 +155,3 @@ kill 8999
 
 > QQ群：929724129
 
-#### 请作者喝杯咖啡
-
-![](https://api.zhang18.top/api.file/download/mm_facetoface_collect_qrcode_1556171490471.png)

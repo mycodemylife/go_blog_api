@@ -23,7 +23,7 @@ import (
 
 func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
-	orm.RegisterDataBase("default", "mysql", "用户名:密码@/数据库?charset=utf8&loc=Asia%2FShanghai")
+	orm.RegisterDataBase("default", "mysql", "root:zhangxiang@/db_weblog?charset=utf8&loc=Asia%2FShanghai")
 	logs.Info("\n连接数据库成功!")
 }
 

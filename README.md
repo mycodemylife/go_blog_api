@@ -28,7 +28,7 @@ go get github.com/go-sql-driver/mysql
 ```
 Redis缓存驱动，用于用户token回话，也可以用于缓存博客数据
 ```
-github.com/go-redis/redis
+go get github.com/go-redis/redis
 ```
 邮件发送，具体按照你的需求，见config文件
 ```

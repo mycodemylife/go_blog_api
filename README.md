@@ -70,6 +70,12 @@ https://documenter.getpostman.com/view/6651807/S1EJYMDb
 
 Nginx相关命令:
 
+安装(以Ubuntu为例)
+
+```
+apt-get install nginx
+```
+
 停止
 ```
 sudo service nginx stop
@@ -78,7 +84,7 @@ sudo service nginx stop
 ```
 sudo service nginx start
 ```
-1.创建Nginx代理转发文件,放在conf.d目录下，这是开启https的版本，具体如何获取，请看我的博客，不开启的很简单，改改就可以
+1.创建Nginx代理转发文件blogapi.conf，放在conf.d目录下，这是开启https的版本，具体如何获取，请看我的博客，不开启的很简单，改改就可以
 ```
 server {
     charset utf-8;
@@ -131,12 +137,11 @@ go build main.go
 ./main
 ```
 
-常住后台运行
+常驻后台运行
 ```
 nohup ./main &
-
 ```
-如何关闭后台任务?
+#### 如何关闭后台任务?
 
 查看后台任务，找到进程号
 ```

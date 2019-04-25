@@ -73,7 +73,7 @@ Nginx相关命令:
 安装(以Ubuntu为例)
 
 ```
-apt-get install nginx
+sudo apt-get install nginx
 ```
 
 停止

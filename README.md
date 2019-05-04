@@ -9,7 +9,7 @@
 
 #### 一.使用项目该项目
 
-获取项目
+获取项目，修改go_blog_api为weblog,这个是项目名weblog，github上和其他库名字冲突，所以改了，所以你需要修改回来。
 ```
 go get github.com/msterzhang/go_blog_api
 ```
